@@ -1,4 +1,4 @@
-try:
+print ("Hola Mundo")
     horas = float(input('Introduzca Horas: '))
     tarifa = float(input('Introduzca Tarifa por Hora: '))
 
@@ -10,6 +10,6 @@ try:
             print('Salario:', total_extra + (tarifa * 40))
         else:
             print('Salario:', horas * tarifa)
-    calculo_salario(horas, tarifa)
+            
 except:
     print('ERROR, ingrese un número.')
